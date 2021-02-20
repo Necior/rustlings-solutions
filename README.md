@@ -1,4 +1,4 @@
-My solutions to Rustlings exercises.
+My solutions to [Rustlings exercises](https://github.com/rust-lang/rustlings/).
 
 List of exercises (`✓` meaning "solved"):
 
