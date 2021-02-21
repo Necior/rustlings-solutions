@@ -45,7 +45,7 @@ List of exercises (`✓` meaning "solved"):
 ✓ errors1
 ✓ errors2
 ✓ errors3
-errorsn
+✓ errorsn
 generics1
 generics2
 generics3
