@@ -43,7 +43,7 @@ List of exercises (`✓` meaning "solved"):
 ✓ strings2
 ✓ quiz2
 ✓ errors1
-errors2
+✓ errors2
 errors3
 errorsn
 generics1
