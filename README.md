@@ -48,7 +48,7 @@ List of exercises (`✓` meaning "solved"):
 ✓ errorsn
 ✓ generics1
 ✓ generics2
-generics3
+✓ generics3
 option1
 option2
 result1
