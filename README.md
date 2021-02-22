@@ -57,7 +57,7 @@ List of exercises (`✓` meaning "solved"):
 ✓ tests1
 ✓ tests2
 ✓ tests3
-quiz3
+✓ quiz3
 box1
 arc1
 iterators1
