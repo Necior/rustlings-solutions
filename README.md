@@ -50,7 +50,7 @@ List of exercises (`✓` meaning "solved"):
 ✓ generics2
 ✓ generics3
 ✓ option1
-option2
+✓ option2
 result1
 traits1
 traits2
