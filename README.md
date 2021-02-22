@@ -49,7 +49,7 @@ List of exercises (`✓` meaning "solved"):
 ✓ generics1
 ✓ generics2
 ✓ generics3
-option1
+✓ option1
 option2
 result1
 traits1
