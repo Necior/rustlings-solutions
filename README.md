@@ -63,7 +63,7 @@ List of exercises (`✓` meaning "solved"):
 ✓ iterators1
 ✓ iterators2
 ✓ iterators3
-iterators4
+✓ iterators4
 threads1
 macros1
 macros2
