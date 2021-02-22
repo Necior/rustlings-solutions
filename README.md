@@ -52,7 +52,7 @@ List of exercises (`✓` meaning "solved"):
 ✓ option1
 ✓ option2
 ✓ result1
-traits1
+✓ traits1
 traits2
 tests1
 tests2
