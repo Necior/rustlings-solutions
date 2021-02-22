@@ -61,7 +61,7 @@ List of exercises (`✓` meaning "solved"):
 ✓ box1
 ✓ arc1
 ✓ iterators1
-iterators2
+✓ iterators2
 iterators3
 iterators4
 threads1
