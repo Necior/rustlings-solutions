@@ -67,7 +67,7 @@ List of exercises (`✓` meaning "solved"):
 ✓ threads1
 ✓ macros1
 ✓ macros2
-macros3
+✓ macros3
 macros4
 quiz4
 clippy1
