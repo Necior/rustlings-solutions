@@ -54,7 +54,7 @@ List of exercises (`✓` meaning "solved"):
 ✓ result1
 ✓ traits1
 ✓ traits2
-tests1
+✓ tests1
 tests2
 tests3
 quiz3
