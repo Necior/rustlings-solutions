@@ -73,7 +73,7 @@ List of exercises (`✓` meaning "solved"):
 ✓ clippy1
 ✓ clippy2
 ✓ using_as
-from_into
+✓ from_into
 try_from_into
 as_ref_mut
 from_str
