@@ -70,7 +70,7 @@ List of exercises (`✓` meaning "solved"):
 ✓ macros3
 ✓ macros4
 ✓ quiz4
-clippy1
+✓ clippy1
 clippy2
 using_as
 from_into
