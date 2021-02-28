@@ -11,8 +11,6 @@ struct Color {
     blue: u8,
 }
 
-// I AM NOT DONE
-
 // Your task is to complete this implementation
 // and return an Ok result of inner type Color.
 // You need to create an implementation for a tuple of three integers,
@@ -25,19 +23,47 @@ struct Color {
 // Tuple implementation
 impl TryFrom<(i16, i16, i16)> for Color {
     type Error = String;
-    fn try_from(tuple: (i16, i16, i16)) -> Result<Self, Self::Error> {}
+    fn try_from(tuple: (i16, i16, i16)) -> Result<Self, Self::Error> {
+        let r = tuple.0.try_into();
+        let g = tuple.1.try_into();
+        let b = tuple.2.try_into();
+        match (r, g, b) {
+            (Ok(r), Ok(g), Ok(b)) => Ok(Color { red: r, green: g, blue: b }),
+            (_, _, _) => Err(String::from("red, green and blue must be between 0 and 255")),
+        }
+    }
 }
 
 // Array implementation
 impl TryFrom<[i16; 3]> for Color {
     type Error = String;
-    fn try_from(arr: [i16; 3]) -> Result<Self, Self::Error> {}
+    fn try_from(arr: [i16; 3]) -> Result<Self, Self::Error> {
+        let r = arr[0].try_into();
+        let g = arr[1].try_into();
+        let b = arr[2].try_into();
+        match (r, g, b) {
+            (Ok(r), Ok(g), Ok(b)) => Ok(Color { red: r, green: g, blue: b }),
+            (_, _, _) => Err(String::from("red, green and blue must be between 0 and 255")),
+        }
+    }
 }
 
 // Slice implementation
 impl TryFrom<&[i16]> for Color {
     type Error = String;
-    fn try_from(slice: &[i16]) -> Result<Self, Self::Error> {}
+    fn try_from(slice: &[i16]) -> Result<Self, Self::Error> {
+        if slice.len() != 3 {
+            Err(format!("Expected slice of length 3. Got {}", slice.len()))
+        } else {
+            let r = slice[0].try_into();
+            let g = slice[1].try_into();
+            let b = slice[2].try_into();
+            match (r, g, b) {
+                (Ok(r), Ok(g), Ok(b)) => Ok(Color { red: r, green: g, blue: b }),
+                (_, _, _) => Err(String::from("red, green and blue must be between 0 and 255")),
+            }
+        }
+    }
 }
 
 fn main() {
