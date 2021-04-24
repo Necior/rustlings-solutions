@@ -1,6 +1,6 @@
 My solutions to every [Rustlings exercise](https://github.com/rust-lang/rustlings/).
 
-Let me quote the final output of the Rustlings tool, since it's qute:
+Let me quote the final output of the Rustlings tool, since it's cute:
 
 ```
 ★ All exercises completed! ★
