@@ -76,5 +76,5 @@ List of exercises (`✓` meaning "solved"):
 ✓ from_into
 ✓ try_from_into
 ✓ as_ref_mut
-from_str
+✓ from_str
 ```
